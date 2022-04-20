@@ -33,7 +33,7 @@ def add_together(num_1, num_2):
 
 ### YOUR TURN!!!!!!
 
-print(add_together(10, 5))
+print(f"add_together(10, 5): {add_together(10, 5)}")
 
 """
 This next function I want you to code multiplication. The function expects two numbers as
@@ -44,7 +44,7 @@ def multiply(num_1, num_2):
     result = num_1 * num_2
     return result
 
-print(multiply(10, 12))
+print(f"multiply(10, 12): {multiply(10, 12)}")
 
 """
 This next function I want you to implement raising a number to a certain power. Example: 2^2 = 4
@@ -54,7 +54,7 @@ def power(num, power_raise):
     result = pow(num, power_raise)
     return result
 
-print(power(3, 2))
+print(f"power(3, 2): {power(3, 2)}")
 
 """
 For practice, make any function you want! Write the function on your own and tell me what it
@@ -68,4 +68,4 @@ def divide_and_round_down(dividend, divisor):
     """
     return dividend//divisor
 
-print(divide_and_round_down(20, 5))
+print(f"divide_and_round_down(20, 5): {divide_and_round_down(20, 5)}")
